@@ -1,26 +1,37 @@
 <html>
+<body>
 
   <head>
       <title>Django Girls blog</title>
   </head>
-<body>
+
     <div>
         <h1><a href="">django Gils Blog</a><h1>
+
     </div>
 
     {% for post in posts %}
+        <p> published: 03.8.206, 20:14</p>
+        <h2><a href="">Ada Lovelace</a></h2>
+        <p>Uma das precursoras das ciências da computação, seu trabalho estava
+        relacionado á metodologia de cálculo de uma sequência de números de Bernoulli,
+        sequências de racionais com operações altamente complexas. O único problema
+        encontrado por Lovelance, na época, é que ela simplesmente não possuía o
+        maquinário necessário para colocar seus estudos á prova. Seu algoritmo, entretanto,
+        foi provado como correto anos depois de seu falecimento.</p>
         <div>
-          <p> published: 03.8.206, 20:14</p>
-          <h2><a href="">My first post</a></h2>
-          <p>Molly eu fran. gordinha dog</p>
-        </div>
     {% endfor %}
 
     {% for post in posts %}
         <div>
           <p>published: published: 03.8.206, 20:14</p>
-          <h2><a href="">My second post</a></h2>
-          <p>Pretinha e eu. zangada... Me morde</p>
+          <h2><a href="">Grace Hopper</a></h2>
+          <p>Primeira mulher a se formar PhD em matemática, além de ter sido a primeira
+          almirante da marinha dos EUA. No campo da tecnogia, ela foi uma das criadoras
+          do COBOL. Sua história mais famosa é a que remonta á população d termo "bug" para
+          indicar problemas em software. Hopper também criou linguagens de programação para
+          UNIVAC, o primeiro computador comercial fabricado nos Estados Unidos. "É mais fácil
+          pedir perdão do que permisão", dizia ela.</p>
         </div>
     {% endfor %}
 
